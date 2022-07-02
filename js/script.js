@@ -338,7 +338,7 @@ $(document).ready(function() {
 	// 07. COUNTDOWN
 	//===================================================================================
 	var theday = new Date();
-	theday = new Date('7/03/2022, 09:00:00 PM');
+	theday = new Date('7/03/2022, 09:00:00 AM');
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
