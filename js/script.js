@@ -339,10 +339,10 @@ $(document).ready(function() {
 	//===================================================================================
 	var theday = new Date();
 	theday = new Date('07/10/2022, 11:00:00 AM');
-	$('#countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#countdown').countdown({since: theday, format: 'YODHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
-	$('#date-countdown').countdown({until: theday, format: 'WDHMS'});
+	$('#date-countdown').countdown({since: theday, format: 'YODHMS'});
 		 
 	// 08. MOBILE MENU
 	//==================================================================================
